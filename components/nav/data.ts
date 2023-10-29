@@ -9,25 +9,30 @@ export const NavLinkData = [
     name: "Home",
     href: "/home",
     icon: Home,
+    isActive: false,
   },
   {
     name: "Analytics",
     href: "#",
     icon: Analytics,
+    isActive: false,
   },
   {
     name: "Revenue",
     href: "#",
     icon: Revenue,
+    isActive: true,
   },
   {
     name: "CRM",
     href: "#",
     icon: CRM,
+    isActive: false,
   },
   {
     name: "Apps",
     href: "#",
     icon: Apps,
+    isActive: false,
   },
 ];
