@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Navigation from "@/components/nav/Navigation";
 
 export default function Home() {
-  return <p className="text-red-600">just completed initial setups</p>;
+  return (
+    <div className="mx-5">
+      <Navigation />
+    </div>
+  );
 }
