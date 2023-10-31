@@ -8,17 +8,17 @@ import SingleBalance from "@/components/wallet/SingleBalance";
 export default function Home() {
   return (
     <DashboardLayout>
-      <div className="flex justify-between">
-        <div className="w-8/12">
+      <div className="flex flex-col lg:flex-row lg:justify-between">
+        <div className="w-full md:w-8/12">
           <Overview />
         </div>
 
-        <div className="w-3/12">
+        <div className="w-full md:w-3/12">
           <AllBalances />
         </div>
       </div>
 
-      <div>
+      <div className="">
         <AllTransactions />
       </div>
     </DashboardLayout>

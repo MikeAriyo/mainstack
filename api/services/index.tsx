@@ -2,11 +2,8 @@ import Environment from "@/config/env";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseUrl = Environment.NEXT_PUBLIC_BASE_URL;
-const frontendAPIHeader = {
-  "content-type": "application/json",
-};
 
-const createRequest = (url: any) => ({ url, headers: frontendAPIHeader });
+const createRequest = (url: any) => ({ url });
 
 export const frontendAPI = createApi({
   reducerPath: "frontendAPI",
@@ -21,7 +18,7 @@ export const frontendAPI = createApi({
     }),
 
     getTransactions: builder.query({
-      query: (params) => createRequest("/transactions"),
+      query: () => createRequest("/transactions"),
     }),
   }),
 });

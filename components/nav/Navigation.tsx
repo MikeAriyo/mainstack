@@ -10,7 +10,7 @@ import Menu from "@/svgs/Menu";
 
 const Navigation: React.FC = () => {
   return (
-    <div className="bg-white w-full shadow-md rounded-3xl mt-8 py-4 px-12 sticky top-0">
+    <div className="hidden md:block bg-white w-full shadow-md rounded-3xl mt-8 py-4 px-12 sticky top-0">
       <div className="flex justify-between">
         <div>
           <MainstackLogo />

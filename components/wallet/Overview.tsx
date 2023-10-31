@@ -1,15 +1,17 @@
 "use client";
 
+import { useGetWalletQuery } from "@/api/services";
 import { LineChart } from "./chart/LineChart";
 
 const Overview = () => {
+  const { data } = useGetWalletQuery({});
   return (
     <div>
-      <div className="flex space-x-28">
+      <div className="flex space-x-4 md:flex md:space-x-28">
         <div>
           <p className="text-gray-400 text-[14px]">Available Balance</p>
-          <h2 className="font-bold text-black text-[36px] pt-4">
-            USD 120,500.00
+          <h2 className="font-bold text-black text-[24px] md:text-[36px] pt-4">
+            USD {data?.balance}
           </h2>
         </div>
 

@@ -13,7 +13,7 @@ const SingleBalance: React.FC<ISingleBalance> = ({ title, balance }) => {
         <h2 className="font-bold text-black text-[28px] pt-4">USD {balance}</h2>
       </div>
 
-      <div className="cursor-pointer">
+      <div className="cursor-pointer mt-2">
         <Info />
       </div>
     </div>
