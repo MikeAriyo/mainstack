@@ -1,7 +1,7 @@
 "use client";
 
 import MainstackLogo from "@/svgs/MainstackLogo";
-import { NavLinkData } from "./data";
+import { NavLinkData } from "../../constants/data";
 import { NavLink } from "./NavLink";
 import Notification from "@/svgs/Notification";
 import Message from "@/svgs/Message";
@@ -10,7 +10,7 @@ import Menu from "@/svgs/Menu";
 
 const Navigation: React.FC = () => {
   return (
-    <div className="bg-white w-full shadow-md rounded-3xl mt-8 py-4 px-12 sticky">
+    <div className="hidden md:block bg-white w-full shadow-md rounded-3xl mt-8 py-4 px-12 sticky top-0">
       <div className="flex justify-between">
         <div>
           <MainstackLogo />

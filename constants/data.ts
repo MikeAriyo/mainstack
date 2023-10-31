@@ -36,3 +36,7 @@ export const NavLinkData = [
     isActive: false,
   },
 ];
+
+export const BalanceData = [
+  
+]

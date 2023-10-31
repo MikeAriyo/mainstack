@@ -16,7 +16,7 @@ const Avi: React.FC = () => {
         d="M19.1316 12.4648C19.1316 14.1943 17.7296 15.5963 16.0001 15.5963C14.2706 15.5963 12.8687 14.1942 12.8687 12.4648C12.8687 10.7354 14.2706 9.33331 16.0001 9.33331C17.7296 9.33331 19.1316 10.7353 19.1316 12.4648Z"
         fill="white"
       />
-      <g clip-path="url(#clip0_801_1244)">
+      <g clipPath="url(#clip0_801_1244)">
         <rect width="32" height="32" rx="16" fill="#DBDEE6" />
         <path
           d="M20.7395 20.7535C20.5879 20.6525 20.4109 20.6777 20.2846 20.7788C19.0208 21.7139 17.479 22.2448 15.7854 22.2448C14.0919 22.2448 12.5501 21.6887 11.2863 20.7788C11.1598 20.6777 10.9576 20.6777 10.8314 20.7535C7.84886 22.6745 6.35742 26.4408 6.35742 30.763C6.35742 33.7456 25.2136 33.7456 25.2136 30.763C25.2132 26.4407 23.7219 22.6746 20.7394 20.7535H20.7395Z"
@@ -41,8 +41,8 @@ const Avi: React.FC = () => {
           y2="32"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5C6670" />
-          <stop offset="1" stop-color="#131316" />
+          <stop stopColor="#5C6670" />
+          <stop offset="1" stopColor="#131316" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_801_1244"
@@ -52,8 +52,8 @@ const Avi: React.FC = () => {
           y2="12.7528"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="#F2F3F5" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="#F2F3F5" />
         </linearGradient>
         <clipPath id="clip0_801_1244">
           <rect width="32" height="32" rx="16" fill="white" />
